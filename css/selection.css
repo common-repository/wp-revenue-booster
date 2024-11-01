@@ -1,0 +1,61 @@
+#wpadminbar .wprb-exit-selection-mode .ab-item:before {
+  content: "\f535";
+  top: 2px;
+}
+
+#wpadminbar .wprb-exit-selection-mode .ab-item {
+  background-color: #CD5C5C;
+  font-weight: bold;
+}
+
+.wprb-add-selection {
+  background-color: LightSkyBlue;
+  border: 3px dashed red;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.wprb-selection-added {
+  background-color: Lime;
+  border: 3px dashed red;
+  cursor: pointer; 
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.wprb-current-text, .wprb-customization-row {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.wprb-add-remove {
+  margin-bottom: 15px;
+}
+
+.wprb-customization-popup input[type="submit"] {
+  float: right;
+}
+
+.wprb-customization-field {
+  margin-bottom: 10px;
+}
+
+.wprb_modal {
+  max-width: 1000px;
+  z-index: 10000 !important;
+}
+
+.wprb-remove-customization {
+  float: right;
+}
+
+.wprb-add-customizations a, .wprb-remove-customization {
+  font-weight: bold;
+}
+
+.wprb-customization-popup a:hover {
+  color: Gray;
+}
+
